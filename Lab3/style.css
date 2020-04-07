@@ -1,0 +1,260 @@
+body, button, input, select, textarea, li, a {
+    font-size: 1.5rem;
+    line-height: 1.467;
+    font-family: "Segoe UI","Segoe WP",Arial,Sans-Serif;
+    text-decoration: none;
+    color: #696969;
+}
+
+* {
+	box-sizing: border-box; 
+	margin: 0;
+	padding: 0;
+}
+
+button {
+	cursor: pointer;
+}
+
+body {
+	background: #CCC;
+	padding: 0;
+	margin: 0;
+}
+
+div#container {
+	max-width: 1600px;
+	margin: auto;
+	position: relative;
+}
+
+header {
+	padding-top: 30px;
+	padding-left: 175px;
+	margin: 0;
+	background-color: #f4f4f2;
+	height: 110px;
+	width: 1600px;
+	position: fixed;
+	box-shadow: 12px 0 15px -4px rgba(0,0,0,.12), -12px 0 8px -4px rgba(0,0,0,.12);
+	z-index: 1000;
+}
+
+
+main {
+	top: 110px;
+	box-shadow: 12px 0 15px -4px rgba(0,0,0,.12), -12px 0 8px -4px rgba(0,0,0,.12);
+	background-color: #f4f4f2;
+	position: relative;
+	margin: 0px auto;
+	padding-left: 175px;
+	padding-right: 175px;
+	padding-top: 5px;
+}
+
+
+.text {
+    font-size: 1.5rem;
+    line-height: 1.467;
+    font-family: "Segoe UI","Segoe WP",Arial,Sans-Serif;
+    line-height: 1.8rem;
+    letter-spacing: normal;
+    color: #696969
+}
+
+div#logo {
+	background-image: url("logo.png");
+	width: 78px;
+	height: 31px;
+	float: left;
+	margin-top: 1rem;
+}
+
+div#logosubtitle {
+	font-family: "Segoe UI","Segoe WP","Arial","Sans-Serif";
+    font-weight: normal;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    letter-spacing: normal;
+    color: #696969;
+    float: left;
+    margin-top: 0rem;
+    width: 100%;
+}
+
+div#header-search {
+	border-radius: .6rem;
+    box-shadow: 0 0.2rem 0.4rem rgba(0,0,0,.12), 0 0.2rem 0.4rem rgba(0,0,0,.16);
+	display: inline-block;
+	float: left;
+	margin-left: 10%;
+	height: 4.4rem;
+	width: 45%;
+	position: absolute;
+	padding-left: 10px;
+	background: #fff;
+	border: solid .1rem #9f9f9f;
+	text-align: center;
+}
+
+#search-bar {
+    position: relative;
+    height: 100%;
+    background: transparent;
+    outline: 0;
+    float: left;
+    border: 0;
+}
+
+#search-input {
+	background: transparent;
+    text-overflow: ellipsis;
+    border: 0;
+    height: 100%;
+    width: 360px;
+}
+
+.bingicon {
+	width: 2.5rem;
+	height: 2.5rem;
+	margin-top: 0.8rem;
+    margin-right: 0.8rem;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    float: left;
+}
+
+#buttons-bar {
+	height: 100%;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    float: left;
+}
+
+#button-search {
+	border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+
+	border: 0;
+	float: left;
+    height: 100%;
+    background: #feb632;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(254, 182, 50);
+    color: #333;
+    padding: .4rem 1.8rem .6rem;
+}
+
+
+
+div#login {
+	display: inline-block;
+	position: relative;
+	left: 75%;
+	margin-top: 1rem;
+	vertical-align: top;
+	line-height: 1.5rem;
+}
+
+#login > div {
+	margin-left: 10px;
+	width: 25px;
+	height: 24px;
+	display: inline-block;
+	background-image: url("gear.png");
+	vertical-align: middle;
+}
+
+.nav__links {
+	list-style: none;
+}
+
+.nav__links li {
+	display: inline-block;
+	padding: 5px 30px;
+	color: #696969;
+}
+
+.nav__links2 {
+	list-style: none;
+}
+
+#firstchild_nav_links {
+	padding-left: 0;
+	padding-right: 30px;
+}
+
+
+.nav__links2 li {
+	display: inline-block;
+	padding: 0px 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size: 1.5rem;
+	font-weight: 500;
+	line-height: 1.384;
+	font-family: "Segoe UI","Segoe WP",Arial,Sans-Serif;
+
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #AAA;
+}
+
+
+#firstchild_nav_links2 {
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+
+.nav__links3 li {
+	display: inline-block;
+	padding: 0px 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;;
+	font-size: 1.5rem;
+	font-weight: 500;
+	line-height: 1.384;
+	font-family: "Segoe UI","Segoe WP",Arial,Sans-Serif;
+}
+
+.grid-container {
+  	display: grid;
+  	grid-template-columns: auto auto auto;
+  	padding: 3px;
+}
+
+
+.grid-item {
+	background-color: rgba(255, 255, 255, 0.8);
+	background-color: #FFF;
+	padding: 3px;
+	text-align: center;
+	font-size: 14px;
+	position: relative;
+}
+
+
+.caption {
+  	position: absolute;
+  	bottom: 20px;
+  	left: 16px;
+  	font-weight: 400;
+  	color: #ffffff;
+  	text-align: left;
+}
+
+
+#covidtab {
+	margin-top: 10px;
+}

@@ -1,0 +1,55 @@
+html {
+	background-color: rgb(5, 36, 64);
+}
+
+div#main {
+	background-image: url('1990-Chevrolet-454-SS-exterior.jpg');
+	height: 539px;
+	width: 1000px;
+	border-style: solid;
+}
+
+div#main:hover {
+ 	transform: rotateY(70deg);
+}
+
+
+div#over {
+	height: 150px;
+	width: 150px;
+	background-color: yellow;
+	position: absolute;
+	z-index: 4;
+}
+
+div#first {
+	height: 300px;
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	z-index: 1;
+}
+
+div#second {
+	height: 250px;
+	width: 250px;
+	background-color: red;
+	position: absolute;
+	z-index: 2;
+}
+
+div#third {
+	height: 200px;
+	width: 200px;
+	background-color: green;
+	position: absolute;
+	z-index: 3;
+}
+
+#over:hover {
+	background-color: lightblue
+}
+
+#over:hover ~ .changeColor {
+	background-color: lightblue
+}
