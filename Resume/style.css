@@ -88,14 +88,18 @@ a {
 
 .grid-container {
   	display: grid;
-  	grid-template-columns: 20% 80%;
+  	grid-template-columns: 22% 78%;
 }
 
 
 .grid-item {
+	/*
 	margin-top: 15px;
 	margin-left: 50px;
-	margin-right: 50px;
+	margin-right: 50px;*/
+	padding-top: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
 	font-size: 15px;
 	position: relative;
 }
@@ -104,4 +108,9 @@ a {
 	font-size: 20px;
 	font-weight: 600;
 	color: #42e0f5;
+}
+
+.text-right {
+	border-left: 1px solid rgba(0,0,0,.15);
+	padding-left: 30px;
 }
