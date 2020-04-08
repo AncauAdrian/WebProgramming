@@ -1,0 +1,105 @@
+* {
+	box-sizing: border-box; 
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+    width: 210mm;
+    height: 297mm;
+    border: 1px #D3D3D3 solid;
+	background: white;
+	/*box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);*/
+}
+
+html {
+    font-size: 15px;
+    line-height: 1.467;
+    font-family: "Segoe UI","Segoe WP",Arial,Sans-Serif;
+    line-height: 1.8rem;
+    letter-spacing: normal;
+    color: #696969;
+    background-color: #BBB;
+}
+
+a {
+	color: #606060;
+	font-weight: 600;
+}
+
+.header {
+	width: 100%;
+	height: 30mm;
+	background-color: #42e0f5;
+	font-size: 10px;
+	text-align: center;
+	vertical-align: center;
+	position: relative;
+}
+
+#title {
+	font-size: 30px;
+    line-height: 1.467;
+    font-family: "Segoe UI","Segoe WP",Arial,Sans-Serif;
+    line-height: 1.8rem;
+    letter-spacing: normal;
+    color: #FFF;
+    font-weight: 600;
+
+    position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -80%);
+}
+
+#subtitle {
+	font-size: 15px;
+    line-height: 1.467;
+    font-family: "Segoe UI","Segoe WP",Arial,Sans-Serif;
+    line-height: 1.8rem;
+    letter-spacing: normal;
+    color: #696969;
+    font-weight: 400;
+
+    position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, 0%);
+}
+
+
+.menu {
+	list-style: none;
+	width: 100%;
+	text-align: center;
+}
+
+.menu li {
+	display: inline-block;
+	color: #696969;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 20px;
+}
+
+.grid-container {
+  	display: grid;
+  	grid-template-columns: 20% 80%;
+}
+
+
+.grid-item {
+	margin-top: 15px;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 15px;
+	position: relative;
+}
+
+.text-left {
+	font-size: 20px;
+	font-weight: 600;
+	color: #42e0f5;
+}
